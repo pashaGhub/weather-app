@@ -1,0 +1,38 @@
+header {
+  position: relative;
+  height: 33px;
+  padding: 5px 13px 0;
+  line-height: 1.6rem;
+  font-size: 1.3rem;
+  display: flex;
+
+  .left {
+    display: flex;
+    position: absolute;
+
+    .carrier {
+      margin-right: 12px;
+      letter-spacing: 1px;
+      font-weight: lighter;
+    }
+
+    .signal {
+      width: 23.29px;
+      height: auto;
+      margin: auto 0;
+    }
+  }
+
+  .time {
+    margin: auto;
+    width: -webkit-fill-available;
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+  }
+
+  .battery {
+    position: absolute;
+    right: 0;
+    height: 30px;
+  }
+}

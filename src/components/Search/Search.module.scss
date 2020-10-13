@@ -1,0 +1,120 @@
+@import "../../assets/mixins.scss";
+@import "../../assets/variables.scss";
+
+.container {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  max-width: 750px;
+  transform: translateX(-100%);
+  transition: transform 0.3s ease-out;
+  background: $dark-color;
+  z-index: 200;
+  overflow: auto;
+  @include responsive("pc") {
+    visibility: hidden;
+  }
+
+  .navbar {
+    display: flex;
+    min-height: 5.75rem;
+    height: auto;
+    justify-content: space-between;
+    font-weight: lighter;
+    align-items: center;
+    padding: $mobile-padding;
+
+    button {
+      @include defaultBtn;
+      position: absolute;
+      font-size: 2.25rem;
+      color: #54c9f9;
+      cursor: pointer;
+      font-weight: 300;
+    }
+
+    .title {
+      font-size: 1.75rem;
+      line-height: 2.1rem;
+      letter-spacing: 0.64px;
+      margin: auto;
+
+      .city {
+        color: $ash-color;
+      }
+    }
+  }
+
+  .searchInput {
+    height: 5.5rem;
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: $mobile-padding;
+
+    input {
+      width: 100%;
+      height: 3.5rem;
+      opacity: 0.7;
+      line-height: 3.5rem;
+      font-size: 1.8rem;
+      letter-spacing: 1px;
+      padding-left: 4rem;
+      border: 1px solid $azure-color;
+      border-radius: 0.8rem;
+      background-color: #4e555e;
+      color: $light-font;
+    }
+
+    .searchIcon {
+      position: absolute;
+      margin-left: 1rem;
+      z-index: 1;
+    }
+
+    .cancel {
+      @include defaultBtn;
+      position: absolute;
+      margin-right: 2rem;
+      right: 0;
+      z-index: 1;
+      cursor: pointer;
+    }
+  }
+
+  .results {
+    background: #4e555e;
+
+    @include responsive("pc") {
+      max-height: 1150px;
+    }
+
+    .singleResult {
+      display: flex;
+      height: 5rem;
+      line-height: 5rem;
+      font-size: 1.75rem;
+      border-bottom: 1px solid #979797;
+      color: $ash-color;
+      margin: $mobile-padding;
+      margin-right: unset;
+      cursor: pointer;
+      text-transform: uppercase;
+
+      &:last-child {
+        border-bottom: unset;
+      }
+
+      span {
+        color: $light-font;
+      }
+    }
+  }
+}
+
+.open {
+  transform: translateX(0);
+  @include responsive("pc") {
+    visibility: visible;
+  }
+}

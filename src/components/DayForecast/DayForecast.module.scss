@@ -1,0 +1,60 @@
+@import "../../assets/mixins.scss";
+@import "../../assets/variables.scss";
+
+.container {
+  width: 100%;
+  position: relative;
+
+  .header {
+    display: flex;
+    min-height: 6.1rem;
+    background: $dark-color;
+    padding: $mobile-padding;
+    font-size: 2.2rem;
+    line-height: 2.6rem;
+    align-items: center;
+    justify-content: space-between;
+
+    .title {
+      text-transform: capitalize;
+    }
+
+    .tempRange {
+      width: 67px;
+      display: flex;
+      justify-content: space-between;
+
+      span:last-child {
+        font-weight: lighter;
+      }
+    }
+  }
+
+  .forecast {
+    position: relative;
+    height: auto;
+    min-height: 47rem;
+
+    .info {
+      position: inherit;
+      padding-top: 9rem;
+
+      .degree {
+        font-size: 10rem;
+        font-weight: lighter;
+      }
+
+      .city {
+        font-size: 3.6rem;
+      }
+
+      .weather {
+        font-size: 2rem;
+
+        img {
+          margin-left: 0.8rem;
+        }
+      }
+    }
+  }
+}

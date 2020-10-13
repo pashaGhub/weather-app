@@ -1,0 +1,24 @@
+@import "../../assets/mixins.scss";
+@import "../../assets/variables.scss";
+
+.container {
+  display: flex;
+  min-height: 5.75rem;
+  height: auto;
+  justify-content: space-between;
+  padding: $mobile-padding;
+  font-weight: lighter;
+  align-items: center;
+
+  .title {
+    // @include defaultBtn;
+    font-size: 1.75rem;
+    line-height: 2.1rem;
+    letter-spacing: 0.64px;
+    cursor: pointer;
+
+    .city {
+      color: #9fa0a5;
+    }
+  }
+}

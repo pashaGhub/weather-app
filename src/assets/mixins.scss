@@ -1,0 +1,16 @@
+$pc: 750px;
+
+@mixin responsive($size) {
+  @if $size == "pc" {
+    @media screen and (min-width: $pc) {
+      @content;
+    }
+  }
+}
+
+@mixin defaultBtn() {
+  background-color: unset;
+  border: unset;
+  text-decoration: unset;
+  @content;
+}

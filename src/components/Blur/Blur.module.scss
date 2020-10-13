@@ -1,0 +1,20 @@
+.blurImg {
+  background: url("../../assets/images/Map.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+
+  .blurEffect {
+    background: rgba(
+      78,
+      85,
+      94,
+      0.7
+    ); // Make sure this color has an opacity of less than 1
+    backdrop-filter: blur(100px); // This be the blur
+    height: 100%;
+    width: 100%;
+  }
+}

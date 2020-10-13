@@ -1,0 +1,79 @@
+@import "../../assets/mixins.scss";
+@import "../../assets/variables.scss";
+
+.container {
+  width: 100%;
+  position: relative;
+
+  .header {
+    display: flex;
+    min-height: 6.1rem;
+    background: $dark-color;
+    padding: $mobile-padding;
+    font-size: 2.2rem;
+    line-height: 2.6rem;
+    align-items: center;
+    justify-content: space-between;
+
+    .title {
+      text-transform: capitalize;
+    }
+  }
+
+  .forecast {
+    position: relative;
+    display: flex;
+    height: auto;
+
+    .weekDay {
+      position: relative;
+      width: 100%;
+      font-size: 1.75rem;
+      display: flex;
+      flex-direction: column;
+
+      .dayTag {
+        text-transform: uppercase;
+        font-weight: lighter;
+        padding-top: 1.3rem;
+      }
+
+      .weatherIcon {
+        display: flex;
+        justify-content: center;
+        height: 4rem;
+      }
+
+      .tempRange {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 1rem;
+
+        span:last-child {
+          font-weight: lighter;
+        }
+      }
+
+      .diagram {
+        font-size: unset;
+        display: flex;
+        margin-top: auto;
+        margin-bottom: 0;
+
+        .diagramItem {
+          width: 100%;
+          margin: auto 0 0;
+        }
+
+        .higher {
+          background-image: url("../../assets/icons/higher.svg");
+          height: 2rem;
+        }
+        .lower {
+          height: 1rem;
+          background-image: url("../../assets/icons/lower.svg");
+        }
+      }
+    }
+  }
+}

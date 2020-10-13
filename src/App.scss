@@ -1,0 +1,23 @@
+@import "./assets/mixins.scss";
+@import "./assets/variables.scss";
+
+.App {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  @include responsive("pc") {
+    padding: 5rem 0 5rem;
+    min-height: 100vh;
+    background-color: #282c34;
+  }
+}
+
+.container {
+  position: relative;
+  margin: auto;
+  max-width: 750px;
+  width: 100%;
+  height: 100%;
+  background-color: $dark-color;
+  color: $light-font;
+}

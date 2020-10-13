@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="26px" viewBox="0 0 26 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>5DB56DB5-2784-4026-A4EE-EE3597F03492</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Location" transform="translate(-32.000000, -159.000000)" fill="#9FA0A5">
+            <g id="Search-Icon" transform="translate(32.000000, 159.000000)">
+                <path d="M25.236,23.798 L17.752,16.315 C19.156,14.593 20,12.397 20,10.002 C20,4.479 15.523,0.002 10,0.002 C4.478,0.002 0,4.479 0,10.002 C0,15.524 4.478,20.001 10,20.001 C12.407,20.001 14.615,19.15 16.341,17.733 L23.821,25.213 L25.236,23.798 L25.236,23.798 Z M10,18 C5.582,18 2,14.418 2,10 C2,5.581 5.581,1.999 10,1.999 C14.418,1.999 18,5.581 18,10 C18.001,14.419 14.419,18 10,18 L10,18 Z"></path>
+            </g>
+        </g>
+    </g>
+</svg>

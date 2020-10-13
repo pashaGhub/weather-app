@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="36px" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>52055496-E115-44F7-ABE1-6DC062C64229</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Weather-Forecast" transform="translate(-252.000000, -1155.000000)" stroke="#FFDB08">
+            <g id="3-Sun-Icon" transform="translate(252.000000, 1155.000000)">
+                <path d="M17.5454545,0.582589286 L17.5454545,6.40848214 M29.5506297,5.68403077 L25.4311013,9.80355912 M34.523336,18 L28.6974432,18 M29.5506297,30.3159692 L25.4311013,26.1964409 M17.5454545,35.4174107 L17.5454545,29.5915179 M5.54027941,30.3159692 L9.65980776,26.1964409 M0.567573052,18 L6.39346591,18 M5.54027941,5.68403077 L9.65980776,9.80355912" id="Line" stroke-linecap="square"></path>
+                <ellipse id="Oval-159" stroke-width="2" cx="17.5454545" cy="18.0200893" rx="7.3354232" ry="7.57366071"></ellipse>
+            </g>
+        </g>
+    </g>
+</svg>
