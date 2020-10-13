@@ -1,7 +1,7 @@
 ## Introduction
 
 Project was created using React, TypeScript, Sass.<br/>
-Main functionality: show current weather and weather forecast for selected city. If the user allows app to determine current location, app will set a city automatically.<br/>
+Main functionality: show current weather and week forecast for selected city. If the user allows app to determine current location, app will set a city automatically.<br/>
 User also can search for a city by clicking on label "Weather forecast" on the top of the app.
 
 ## ///////////
